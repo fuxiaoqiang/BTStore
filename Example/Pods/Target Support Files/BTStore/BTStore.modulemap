@@ -1,0 +1,6 @@
+framework module BTStore {
+  umbrella header "BTStore-umbrella.h"
+
+  export *
+  module * { export * }
+}

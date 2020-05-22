@@ -1,0 +1,27 @@
+PODS:
+  - BTStore (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - BTStore (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  BTStore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BTStore: f8f7fe00ec688d9ea07b5b31ffb0e743724a5977
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: d5374698c268600545940364949b9730b7b6c114
+
+COCOAPODS: 1.7.5
